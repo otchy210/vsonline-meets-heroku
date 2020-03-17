@@ -56,3 +56,9 @@ Run the server
 ```bash
 $ npm start
 ```
+
+## Test web server running on VS Online environment
+
+![TCP port forward](images/07a_tcp-port-forward.png)
+![TCP port forward](images/07a_tcp-port-forward.png)
+![TCP port forward](images/07c_the-app-is-running.png)
