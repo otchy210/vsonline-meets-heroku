@@ -1,0 +1,22 @@
+{
+  "name": "vsonline-meets-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otchy210/vsonline-meets-heroku.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otchy210/vsonline-meets-heroku/issues"
+  },
+  "homepage": "https://github.com/otchy210/vsonline-meets-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -21,3 +21,38 @@ https://online.visualstudio.com/login
 ![New Terminal](images/04a_new-terminal.png)
 ![Git commands](images/04b_git-commands.png)
 
+## Fix Node version to use
+
+```bash
+$ nvm install 12
+```
+
+## Implement web server
+
+```bash
+$ npm init
+$ npm install express --save
+```
+
+app.js
+```js
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => res.send('The app is running!'));
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+```
+
+package.json
+```json
+  "scripts": {
+    "start": "node app"
+  }
+```
+
+Run the server
+```bash
+$ npm start
+```
