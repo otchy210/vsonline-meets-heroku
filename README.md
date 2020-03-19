@@ -102,3 +102,23 @@ package.json (optional)
 ![Manual deploy](images/09h_manual-deploy.png)
 ![Manual deploy](images/09i_manual-deploy.png)
 ![Manual deploy](images/09j_the-app-is-running.png)
+
+## Automatic deploys
+
+![Automatic deploys](images/10a_automatic-deploys.png)
+
+app.js
+```js
+app.get('/', (req, res) => res.send('The app is running on Heroku!'));
+```
+
+```bash
+$ git add app.js
+$ git commit -m "Update app.js"
+$ git push
+```
+
+![Automatic deploys](images/10b_activity.png)
+
+https://vsonline-meets-heroku.herokuapp.com/
+![Automatic deploys](images/10c_the-app-is-running-on-heroku.png)
