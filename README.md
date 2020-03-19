@@ -63,3 +63,29 @@ $ npm start
 ![TCP port forward](images/07b_tcp-port-forward.png)
 ![TCP port forward](images/07c_connecting-to-the-forwarded-port.png)
 ![TCP port forward](images/07d_the-app-is-running.png)
+
+## Make the webapp runnable on Heroku
+
+app.js
+```js
+const port = process.env.PORT || 3000;
+```
+
+package.json
+```json
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
+```
+
+package.json (optional)
+```json
+  "scripts": {
+    "start": "node app",
+    "build": "echo What you need to run before starting the server such as webpack.",
+    "heroku-postbuild": "echo Alternative of build. If specified, build won't be called.",
+    "heroku-prebuild": "echo This runs before dependency installation.",
+    "heroku-postbuild": "echo This runs after Heroku dependency installation."
+  },
+```
