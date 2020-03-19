@@ -89,3 +89,16 @@ package.json (optional)
     "heroku-postbuild": "echo This runs after Heroku dependency installation."
   },
 ```
+
+## Deploy the webapp on Heroku
+
+![Create a new app](images/09a_create-a-new-app.png)
+![Create a new app](images/09b_create-a-new-app.png)
+![Connect to GitHub](images/09c_connect-to-github.png)
+![Connect to GitHub](images/09d_connect-to-github.png)
+![Connect to GitHub](images/09e_connect-to-github.png)
+![Connect to GitHub](images/09f_connect-to-github.png)
+![Manual deploy](images/09g_manual-deploy.png)
+![Manual deploy](images/09h_manual-deploy.png)
+![Manual deploy](images/09i_manual-deploy.png)
+![Manual deploy](images/09j_the-app-is-running.png)
