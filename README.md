@@ -25,6 +25,7 @@ https://online.visualstudio.com/login
 
 ```bash
 $ nvm install 12
+$ nvm use 12
 ```
 
 ## Implement web server
