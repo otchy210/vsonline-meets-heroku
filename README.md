@@ -122,3 +122,16 @@ $ git push
 
 https://vsonline-meets-heroku.herokuapp.com/
 ![Automatic deploys](images/10c_the-app-is-running-on-heroku.png)
+
+## Setup custom domain
+
+![Verify acount](images/11a_verify-account.png)
+![Verify account](images/11b_verify-account.png)
+![Verify account](images/11c_verify-account.png)
+![Add custom domian](images/11d_add-custom-domain.png)
+![Add custom domian](images/11e_add-custom-domain.png)
+![Add custom domian](images/11f_add-custom-domain.png)
+![Add custom domian](images/11g_add-custom-domain.png)
+![Dns setting](images/11h-dns-setting.png)
+![Dns setting](images/11i-dns-setting.png)
+![Dns setting](images/11j_the-app-is-running-on-heroku.png)
