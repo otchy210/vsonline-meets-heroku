@@ -136,3 +136,10 @@ https://vsonline-meets-heroku.herokuapp.com/
 ![Dns setting](images/11h-dns-setting.png)
 ![Dns setting](images/11i-dns-setting.png)
 ![Dns setting](images/11j_the-app-is-running-on-heroku.png)
+
+## Configure SSL
+
+![Change Dyno Type](images/12a_change-dyno-type.png)
+![Change Dyno Type](images/12b_change-dyno-type.png)
+![Configure SSL](images/12c_configure-ssl.png)
+![Configure SSL](images/12d_configure-ssl.png)
